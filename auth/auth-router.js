@@ -42,7 +42,7 @@ function genToken(user) {
     subject: "user",
     username: user.username
   };
-  const secret = secret.jwtSecret;
+  const secret = secrets.jwtSecret;
   const options ={
     expiresIn: '1h'
   };
