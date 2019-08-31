@@ -45,10 +45,11 @@ Demonstrate your understanding of this week's concepts by answering the followin
 { What bcrpyt does to help us store passwords in a secure manner is that it hashes it and adds salt so when another developer wants to see your password, they wouldnt be able to due to the crpytion }
 
 - [ ] What does bcrypt do to slow down attackers?
-{bcrpyt creates a key derivation function, or the hash plus the time for the hash to go through to be valid to slow down attackers  }
+{ bcrpyt creates a key derivation function, or the hash plus the time for the hash to go through to be valid to slow down attackers }
 
 - [ ] What are the three parts of the JSON Web Token?
 { payload, secret, options }
+
 ## Minimum Viable Product
 
 Implement an User Authentication System. Hash user's passwords before saving them to the database. Use `JSON Web Tokens` or `Sessions and Cookies` to persist authentication across requests.
